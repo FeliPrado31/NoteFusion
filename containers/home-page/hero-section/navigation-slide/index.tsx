@@ -20,14 +20,14 @@ const NavigationSlide: FC<NavigationSlideProps> = () => {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <Link href='/docs' legacyBehavior passHref>
+          <Link href='#characteristics' legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Características
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href='/docs' legacyBehavior passHref>
+          <Link href='#pricing' legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Precios
             </NavigationMenuLink>

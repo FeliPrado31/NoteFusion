@@ -19,7 +19,7 @@ const pricingPlans = [
 
 const PricingSection: React.FC<PricingSectionProps> = () => {
   return (
-    <div className='mx-auto max-w-2xl'>
+    <div className='mx-auto max-w-2xl' id='pricing'>
       <h2>Elige tu plan</h2>
       <table>
         <thead>
