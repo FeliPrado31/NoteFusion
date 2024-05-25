@@ -5,7 +5,7 @@ interface CharacteristicsSectionProps {}
 
 const CharacteristicsSection: React.FC<CharacteristicsSectionProps> = () => {
   return (
-    <div className='bg-gray-100 '>
+    <div className='bg-gray-100' id='characteristics'>
       <div className='max-w-7xl mx-auto'>
         <h2 className='text-3xl font-extrabold text-gray-900 mb-4'>
           Por qué elegir NoteFusion
