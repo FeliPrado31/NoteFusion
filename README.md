@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NoteFusion 📝
 
-## Getting Started
+> ¡Toma notas como nunca antes con NoteFusion! 🚀
 
-First, run the development server:
+NoteFusion es una aplicación web que te permite tomar notas de manera eficiente y organizada, con soporte completo para Markdown. ✨ Está licenciado bajo la GPL v3, lo que garantiza que el software siga siendo libre y que los usuarios puedan usar, modificar y distribuir el código sin restricciones.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Características principales 🌟
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Editor de Markdown con vista previa en tiempo real 💻
+- Organización de notas en carpetas y etiquetas 📁
+- Búsqueda avanzada por título, contenido y etiquetas 🔍
+- Sincronización de notas entre dispositivos 📱💻
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologías utilizadas 🛠️
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Firebase 🔥
+- Nextjs 🚀
 
-## Learn More
+## Licencia GPL v3 📄
 
-To learn more about Next.js, take a look at the following resources:
+NoteFusion está licenciado bajo la Licencia Pública General de GNU versión 3 (GPL v3). Esto significa que:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Puedes usar, modificar y distribuir el software libremente
+- El código fuente debe estar disponible para cualquier usuario
+- Las versiones modificadas deben mantener los mismos términos de licencia
+- Está diseñada para proteger las libertades de los usuarios a largo plazo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+La GPL v3 es compatible con un mayor número de otras licencias de software libre, facilitando la combinación de código de diferentes proyectos. También aborda nuevas amenazas a las libertades de los usuarios, como las medidas tecnológicas de protección (DRM).
 
-## Deploy on Vercel
+## Contribuir 🤝
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+¡Nos encantaría que contribuyas a NoteFusion! 💖 Si encuentras un error, tienes una idea genial o simplemente quieres ayudar, sigue estos pasos:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Haz un fork del repositorio
+2. Crea una nueva rama con tu contribución 🌿
+3. Envía un pull request 🚀
+
+## Contacto 📧
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarnos:
+
+¡Esperamos que disfrutes usando NoteFusion tanto como nosotros disfrutamos creándolo! 😊
