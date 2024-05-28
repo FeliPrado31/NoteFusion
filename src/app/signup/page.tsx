@@ -10,7 +10,7 @@ import FooterSection from '../../../containers/signup/footer-section';
 
 export default function Component() {
   return (
-    <>
+    <main>
       <div className='flex min-h-screen items-center justify-center bg-gray-100 px-4 py-12 sm:px-6 lg:px-8 dark:bg-gray-950'>
         <div className='w-full max-w-md space-y-8'>
           <HeaderSection />
@@ -27,6 +27,6 @@ export default function Component() {
       <footer className='bg-gray-900 py-6 dark:bg-gray-800'>
         <FooterSection />
       </footer>
-    </>
+    </main>
   );
 }
