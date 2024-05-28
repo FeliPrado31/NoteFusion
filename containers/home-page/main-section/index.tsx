@@ -18,7 +18,7 @@ const MainSection: React.FC<MainSectionProps> = () => {
           <div className='flex justify-center space-x-4'>
             <Link
               className='inline-flex items-center justify-center rounded-md bg-indigo-600 px-5 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
-              href='#'
+              href='/signup'
             >
               Registrarse
             </Link>
