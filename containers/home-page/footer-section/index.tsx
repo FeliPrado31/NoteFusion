@@ -1,73 +1,68 @@
-import Image from 'next/image';
+import { FacebookIcon, InstagramIcon, TwitterIcon } from 'lucide-react';
 import Link from 'next/link';
 
 interface FooterSectionProps {}
 
 const FooterSection: React.FC<FooterSectionProps> = () => {
   return (
-    <footer className='bg-gray-900 text-white font-sans py-6 mt-10'>
-      <div className='container mx-auto px-4 mt-6 flex justify-center items-center'>
-        <ul className='flex space-x-8'>
-          <li>
-            <Link href='/privacy-policy'>Privacy Policy</Link>
-          </li>
-          <li>
-            <Link href='/terms-of-service'>Terms of Service</Link>
-          </li>
-        </ul>
+    <div className='container max-w-5xl px-4 mx-auto'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+        <div>
+          <h4 className='text-lg font-medium mb-4'>Company</h4>
+          <ul className='space-y-2'>
+            <li>
+              <Link href='#'>About</Link>
+            </li>
+            <li>
+              <Link href='#'>Careers</Link>
+            </li>
+            <li>
+              <Link href='#'>Blog</Link>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 className='text-lg font-medium mb-4'>Legal</h4>
+          <ul className='space-y-2'>
+            <li>
+              <Link href='#'>Terms of Service</Link>
+            </li>
+            <li>
+              <Link href='#'>Privacy Policy</Link>
+            </li>
+            <li>
+              <Link href='#'>Cookie Policy</Link>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 className='text-lg font-medium mb-4'>Follow Us</h4>
+          <div className='flex space-x-4'>
+            <Link
+              className='hover:text-indigo-600 dark:hover:text-indigo-400'
+              href='#'
+            >
+              <TwitterIcon className='h-6 w-6' />
+            </Link>
+            <Link
+              className='hover:text-indigo-600 dark:hover:text-indigo-400'
+              href='#'
+            >
+              <FacebookIcon className='h-6 w-6' />
+            </Link>
+            <Link
+              className='hover:text-indigo-600 dark:hover:text-indigo-400'
+              href='#'
+            >
+              <InstagramIcon className='h-6 w-6' />
+            </Link>
+          </div>
+        </div>
       </div>
-
-      <div className='container mx-auto px-4 mt-6 flex justify-center items-center'>
-        <ul className='flex space-x-8'>
-          <li>
-            <Link
-              href='https://twitter.com/NoteGenie'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <Image
-                src='/icons/twitter.svg'
-                alt='Twitter'
-                width={24}
-                height={24}
-              />
-            </Link>
-          </li>
-          <li>
-            <Link
-              href='https://facebook.com/NoteGenie'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <Image
-                src='/icons/facebook.svg'
-                alt='Facebook'
-                width={24}
-                height={24}
-              />
-            </Link>
-          </li>
-          <li>
-            <Link
-              href='https://instagram.com/NoteGenie'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <Image
-                src='/icons/instagram.svg'
-                alt='Instagram'
-                width={24}
-                height={24}
-              />
-            </Link>
-          </li>
-        </ul>
-
-        <p className='text-center mt-4'>
-          Copyright © 2023 NoteGenie. All rights reserved.
-        </p>
+      <div className='mt-8 text-center text-sm'>
+        © 2024 NoteFusion 📝. All rights reserved.
       </div>
-    </footer>
+    </div>
   );
 };
 
