@@ -15,6 +15,7 @@ NoteFusion es una aplicación web que te permite tomar notas de manera eficiente
 
 - Firebase 🔥
 - Nextjs 🚀
+- Tailwind CSS y shadcn/ui para el diseño y la interfaz de usuario 🎨
 
 ## Licencia GPL v3 📄
 
