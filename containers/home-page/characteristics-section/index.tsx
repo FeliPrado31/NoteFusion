@@ -1,49 +1,51 @@
-import { Button } from '@/components/ui/button';
-import { Link } from 'lucide-react';
+import {
+  BookMarkedIcon,
+  CombineIcon,
+  FolderIcon,
+  FolderSyncIcon,
+} from 'lucide-react';
 
 interface CharacteristicsSectionProps {}
 
 const CharacteristicsSection: React.FC<CharacteristicsSectionProps> = () => {
   return (
-    <div className='bg-gray-100' id='characteristics'>
-      <div className='max-w-7xl mx-auto'>
-        <h2 className='text-3xl font-extrabold text-gray-900 mb-4'>
-          Por qué elegir NoteFusion
-        </h2>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-          <div className='bg-white rounded-md p-6 shadow-sm hover:shadow-lg transition duration-150 ease-in-out'>
-            <h3 className='text-lg font-medium text-gray-900 mt-4'>
-              Organización de notas en carpetas y etiquetas
-            </h3>
-            <p className='mt-2 text-gray-600 text-sm'>
-              Clasifica tus notas en carpetas y agrupa por etiquetas para una
-              mejor organización.
+    <>
+      <div className='container max-w-5xl px-4 py-16 md:py-24 lg:py-32'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
+          <div className='flex flex-col items-center text-center space-y-4'>
+            <BookMarkedIcon className='h-12 w-12 text-indigo-600' />
+            <h3 className='text-xl font-semibold'>Editor de Markdown</h3>
+            <p className='text-gray-600 dark:text-gray-400'>
+              Escribe y da formato a tus notas con el potente editor de
+              Markdown, con vista previa en tiempo real.
             </p>
           </div>
-          <div className='bg-white rounded-md p-6 shadow-sm hover:shadow-lg transition duration-150 ease-in-out'>
-            <h3 className='text-lg font-medium text-gray-900 mt-4'>
-              Búsqueda avanzada por título, contenido y etiquetas
-            </h3>
-            <p className='mt-2 text-gray-600 text-sm'>
-              Realiza búsquedas filtradas por título, contenido y etiquetas para
-              encontrar tus notas en cuestión.
+          <div className='flex flex-col items-center text-center space-y-4'>
+            <FolderIcon className='h-12 w-12 text-indigo-600' />
+            <h3 className='text-xl font-semibold'>Organización avanzada</h3>
+            <p className='text-gray-600 dark:text-gray-400'>
+              Mantén tus notas ordenadas y fáciles de encontrar con carpetas,
+              etiquetas y búsqueda.
             </p>
           </div>
-          <div className='bg-white rounded-md p-6 shadow-sm hover:shadow-lg transition duration-150 ease-in-out'>
-            <h3 className='text-lg font-medium text-gray-900 mt-4'>
-              Editor de Markdown con vista previa en tiempo real
-            </h3>
-            <p className='mt-2 text-gray-600 text-sm'>
-              Escribe tus notas en un editor Markdown moderno y visualiza la
-              vista previa en tiempo real para una mejor redacción.
+          <div className='flex flex-col items-center text-center space-y-4'>
+            <FolderSyncIcon className='h-12 w-12 text-indigo-600' />
+            <h3 className='text-xl font-semibold'>Sincronización</h3>
+            <p className='text-gray-600 dark:text-gray-400'>
+              Accede a tus notas desde cualquier dispositivo con la
+              sincronización en la nube.
+            </p>
+          </div>
+          <div className='flex flex-col items-center text-center space-y-4'>
+            <CombineIcon className='h-12 w-12 text-indigo-600' />
+            <h3 className='text-xl font-semibold'>Colaboración</h3>
+            <p className='text-gray-600 dark:text-gray-400'>
+              Comparte y colabora en tiempo real con tus compañeros de equipo.
             </p>
           </div>
         </div>
       </div>
-      <div>
-        <Button>Descubre más</Button>
-      </div>
-    </div>
+    </>
   );
 };
 
