@@ -1,5 +1,3 @@
-Aquí está el archivo README.md con la información adicional sobre los proyectos en los que se basa NoteFusion:
-
 # NoteFusion 📝
 
 > ¡Toma notas como nunca antes con NoteFusion! 🚀
