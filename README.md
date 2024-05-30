@@ -1,3 +1,5 @@
+Aquí está el archivo README.md con la información adicional sobre los proyectos en los que se basa NoteFusion:
+
 # NoteFusion 📝
 
 > ¡Toma notas como nunca antes con NoteFusion! 🚀
@@ -16,6 +18,11 @@ NoteFusion es una aplicación web que te permite tomar notas de manera eficiente
 - Firebase 🔥
 - Nextjs 🚀
 - Tailwind CSS y shadcn/ui para el diseño y la interfaz de usuario 🎨
+
+## Basado en los siguientes proyectos 🙌
+
+- La estructura del proyecto se basa en [Folder Structure] de Lalasia (https://github.com/mertthesamael/lalasia/tree/master)
+- Para conectar Next.js 14 con Firebase y Firebase Admin, se utilizó como plantilla [Template para firebase correct auth] de MartinXPN (https://github.com/MartinXPN/nextjs-firebase-mui-starter/tree/main)
 
 ## Licencia GPL v3 📄
 
