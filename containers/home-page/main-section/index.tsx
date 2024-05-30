@@ -1,8 +1,6 @@
 import Link from 'next/link';
 
-interface MainSectionProps {}
-
-const MainSection: React.FC<MainSectionProps> = () => {
+export default function MainSection() {
   return (
     <>
       <div className='container max-w-5xl px-4 py-16 md:py-24 lg:py-32'>
@@ -33,6 +31,4 @@ const MainSection: React.FC<MainSectionProps> = () => {
       </div>
     </>
   );
-};
-
-export default MainSection;
+}
