@@ -1,13 +1,11 @@
 import {
   BookMarkedIcon,
-  CombineIcon,
   FolderIcon,
   FolderSyncIcon,
+  CombineIcon,
 } from 'lucide-react';
 
-interface CharacteristicsSectionProps {}
-
-const CharacteristicsSection: React.FC<CharacteristicsSectionProps> = () => {
+export default function CharacteristicsSection() {
   return (
     <>
       <div className='container max-w-5xl px-4 py-16 md:py-24 lg:py-32'>
@@ -47,6 +45,4 @@ const CharacteristicsSection: React.FC<CharacteristicsSectionProps> = () => {
       </div>
     </>
   );
-};
-
-export default CharacteristicsSection;
+}

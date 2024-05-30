@@ -7,7 +7,7 @@ import HeaderSection from '@/../containers/editor/header-section';
 import NotesEditorSection from '@/../containers/editor/notes-editor-section';
 import NotesPreviewSection from '@/../containers/editor/notes-preview-section';
 
-export default function Component() {
+export default function EditorPage() {
   return (
     <main className='flex h-screen w-full flex-col'>
       <HeaderSection />

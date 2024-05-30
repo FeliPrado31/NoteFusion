@@ -8,7 +8,7 @@ import FormSignUpSection from '../../../containers/signup/form-signup-section';
 import FeatureSection from '../../../containers/signup/feature-section';
 import FooterSection from '../../../containers/signup/footer-section';
 
-export default function Component() {
+export default function SignUpPage() {
   return (
     <main>
       <div className='flex min-h-screen items-center justify-center bg-gray-100 px-4 py-12 sm:px-6 lg:px-8 dark:bg-gray-950'>
