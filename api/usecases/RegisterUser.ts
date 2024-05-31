@@ -17,8 +17,8 @@ export class RegisterUserUseCase {
     userName: string
   ): Promise<User> {
     const user = User.create(userEmail, userPassword, userName);
-    await this.userRepository.save(user);
     await this.authRepository.createUser(userEmail, userPassword);
+    await this.userRepository.save(user);
     return user;
   }
 }
