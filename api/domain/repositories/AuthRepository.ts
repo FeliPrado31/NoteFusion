@@ -1,5 +1,3 @@
-// domain/repositories/AuthRepository.ts
-
 import { Auth } from 'firebase-admin/auth';
 import { auth } from '../../../lib/main.admin';
 
